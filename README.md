@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Git Exercises
 
 This repository contains a series of exercises to practice and improve your `Git skills`
@@ -7,16 +6,42 @@ The exercises are designed to be completed in sequence, building your confidence
 
 ![main-page](img/image.png)
 
+![page-2](img/image-2.png)
 
+## Getting Started
 
-**Автор:** Дуплей Максим Игоревич
+**Follow these steps to initialize and start working on the exercises:**
 
-**Дата:** 21.12.2024
-=======
-## Push a commit you have made
+1. **Clone the repository:**
+   ```bash
+   git clone https://gitexercises.fracz.com/git/exercises.git
+   cd exercises
+   ```
 
-The first exercise is to push a commit that is created when you run the `git start` command.
+2. **Configure your `Git` `username` and `email`:**
+   ```bash
+   git config user.name "Maxim Dupley"
+   git config user.email "maksimqw42@mail.ru"
+   ```
 
-Just try `git verify` after you have initialized the exercises and be proud of passing the first one :-)
+3. **Run the `configuration` `script`:**
+   ```bash
+   ./configure.sh
+   ```
 
->>>>>>> e457994c542f9c68a13afa3014302697bc52bc4b
+4. **Start the first exercise:**
+   ```bash
+   git start
+   ```
+
+5. **Verify your progress:**
+   ```bash
+   git verify
+   ```
+
+## Author
+
+**Maxim Dupley**  
+Email: [maksimqw42@mail.ru](mailto:maksimqw42@mail.ru)
+
+**Date:** 21.12.2024
